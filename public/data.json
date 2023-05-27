@@ -1,0 +1,72 @@
+[
+    {
+        "imageUrl": "https://i.ibb.co/Dfmmk33/10.jpg",
+        "title": "Toyota Camry",
+        "id": 1,
+        "description": "The Toyota Camry is a stylish and sleek car with excellent performance.",
+        "price": "106"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/nCLvmYf/9.jpg",
+        "title": "Honda Civic",
+        "id": 2,
+        "description": "The Honda Civic is a compact car perfect for city driving, with great fuel efficiency.",
+        "price": "100"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/zGFXv3n/8.jpg",
+        "title": "Ford Explorer",
+        "id": 3,
+        "description": "The Ford Explorer is a spacious family car with advanced safety features and ample storage.",
+        "price": "112"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/dmBL65J/4.jpg",
+        "title": "Jeep Wrangler",
+        "id": 4,
+        "description": "The Jeep Wrangler is an off-road SUV built for adventure, with rugged looks and powerful performance.",
+        "price": "90"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/gWgZVF4/6.jpg",
+        "title": "Mercedes-Benz E-Class",
+        "id": 5,
+        "description": "The Mercedes-Benz E-Class is a luxury sedan with a luxurious interior, cutting-edge technology, and smooth handling.",
+        "price": "122"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/gdgsM1f/5.jpg",
+        "title": "Chevrolet Camaro",
+        "id": 6,
+        "description": "The Chevrolet Camaro is a sporty convertible designed for speed and style, guaranteed to turn heads.",
+        "price": "346"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/dQNrxDq/3.jpg",
+        "title": "Tesla Model S",
+        "id": 7,
+        "description": "The Tesla Model S is an electric car with zero emissions, long-range capabilities, and smart features.",
+        "price": 126
+    },
+    {
+        "imageUrl": "https://i.ibb.co/whR3V4w/2.jpg",
+        "title": "Dodge Challenger",
+        "id": 8,
+        "description": "The Dodge Challenger is a powerful muscle car with a roaring engine and aggressive looks.",
+        "price": "106"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/yN678Wc/1.jpg",
+        "title": "Volkswagen Golf",
+        "id": 9,
+        "description": "The Volkswagen Golf is a reliable and fuel-efficient hatchback, perfect for everyday commuting.",
+        "price": "400"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/zGFXv3n/8.jpg",
+        "title": "Nissan Rogue",
+        "id": 10,
+        "description": "The Nissan Rogue is a compact SUV that combines versatility, comfort, and advanced safety features.",
+        "price": "106"
+    }
+]

@@ -1,13 +1,24 @@
-import logo from './logo.svg';
+import React, { createContext, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './component/Home/Home';
+import Header from './component/Header/Header';
+import Footer from './component/Footer/Footer';
 
+
+export const CarContext = createContext();
 
 function App() {
+  const [cars, setCar] = useState(CarContext); // Initialize the car state with null or any default valueconsole.log(car)
+  console.log(cars)
   return (
-    <div className="App">
-      <header className="App-header">
-       <h2>Hi this is kawsar</h2>
-      </header>
-    </div>
+    <CarContext.Provider value={[cars, setCar]}>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+      </Routes>
+      <Footer></Footer>
+    </CarContext.Provider>
   );
 }
 
