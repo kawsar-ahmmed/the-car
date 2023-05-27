@@ -10,7 +10,6 @@ export const CarContext = createContext();
 
 function App() {
   const [cars, setCar] = useState(CarContext); // Initialize the car state with null or any default valueconsole.log(car)
-  console.log(cars)
   return (
     <CarContext.Provider value={[cars, setCar]}>
       <Header></Header>

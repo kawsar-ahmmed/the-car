@@ -2,14 +2,14 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 import logo from '../../Assets/logo.png'
 const Header = () => {
     return (
-        <Navbar>
+        <Navbar sticky='top'>
             <Container>
-                <Navbar.Brand href="#home">{
+                <Navbar.Brand as={Link} to="/">{
                     <img src={logo} alt="" />
                 }</Navbar.Brand>
                 <Nav className="me-right">
