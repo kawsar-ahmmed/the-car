@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col } from 'react-bootstrap';
 import './Cars.css'
 import { Button } from 'bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const Cars = ({ car }) => {
-    const { title, imageUrl, description, price } = car;
-    // console.log(car);
-    const handleCardButton = () => {
-        const x = 0;
-        const news = x + 1;
-        console.log(news)
+    const [cart, setCart] = useState(0);
+    const { title, imageUrl, description, price, id } = car;
+const navigate = useNavigate()
+    //
+    const handleCardButton = id => {
+        navigate(`cars/${id}`)
     }
-
 
 
     return (
@@ -22,8 +22,9 @@ const Cars = ({ car }) => {
                     <h2>{title}</h2>
                     <p>{description}</p>
                     <span>Price {price}</span>
+                    Count {cart}
                     <div className="card-button">
-                        <button onClick={handleCardButton}>View Details</button>
+                        <button onClick={()=> handleCardButton (id)}>View Details</button>
                     </div>
                 </div>
             </div>
